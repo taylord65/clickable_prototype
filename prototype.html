@@ -12,10 +12,22 @@
   		$('#home_x5F_page').show();
 	});
 
-  	$('#back_x5F_button_x5F_home').click(function() {
-   		$('#home_x5F_page').hide(); 		
-  		$('#start_x5F_page').show();
-	});	
+	  	$('#back_x5F_button_x5F_home').click(function() {
+	  		$('#start_x5F_page').show();
+	   		$('#home_x5F_page').hide(); 		
+		});	
+
+		$('#VIEW2_x5F_BUTTON').click(function() {
+	   		$('#home_x5F_page').hide(); 	
+	   		$('#view_x5F_2').show();	
+		});
+
+			/*Back button from view 2 */
+			$('#back_x5F_button_x5F_2').click(function() {
+		   		$('#home_x5F_page').show(); 	
+		   		$('#view_x5F_2').hide();	
+			});
+	
 
   }
 </script>
