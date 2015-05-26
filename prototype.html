@@ -1,0 +1,23 @@
+<!doctype html>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+  $.get('prototype.svg', function(data) {
+    $(document.body).append(data.documentElement);
+    init();
+  });
+  function init() {
+
+  	$('#button').click(function() {
+  		$('#start_x5F_page').hide();
+  		$('#home_x5F_page').show();
+	});
+
+  	$('#back_x5F_button_x5F_home').click(function() {
+   		$('#home_x5F_page').hide(); 		
+  		$('#start_x5F_page').show();
+	});	
+
+  }
+</script>
+<style>
+</style>
