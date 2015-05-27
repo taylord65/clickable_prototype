@@ -5,10 +5,10 @@
 <script>
   $.get('prototype.svg', function(data) {
     $(document.body).append(data.documentElement);
-    init();
+    UI();
   });
 
-  function init() {
+  function UI() {
 
   	/*Start button */
   	$('#button').click(function() {
@@ -50,31 +50,31 @@
   	/*Helper functions*/
 
 	function display_start(){
-			$('#start_x5F_page').show();
-			$('#home_x5F_page').hide();
-		   	$('#view_x5F_2').hide();
-		   	$('#view_x5F_3').hide();	
+		$('#start_x5F_page').show();
+		$('#home_x5F_page').hide();
+	   	$('#view_x5F_2').hide();
+	   	$('#view_x5F_3').hide();	
 	}
 
 	function display_home(){
-			$('#start_x5F_page').hide();
-			$('#home_x5F_page').show();
-		   	$('#view_x5F_2').hide();
-		   	$('#view_x5F_3').hide();	
+		$('#start_x5F_page').hide();
+		$('#home_x5F_page').show();
+	   	$('#view_x5F_2').hide();
+	   	$('#view_x5F_3').hide();	
 	}
 
 	function display_view_2(){
-			$('#start_x5F_page').hide();
-			$('#home_x5F_page').hide();
-		   	$('#view_x5F_2').show();
-		   	$('#view_x5F_3').hide();	
+		$('#start_x5F_page').hide();
+		$('#home_x5F_page').hide();
+	   	$('#view_x5F_2').show();
+	   	$('#view_x5F_3').hide();	
 	}
 
 	function display_view_3(){
-			$('#start_x5F_page').hide();
-			$('#home_x5F_page').hide();
-		   	$('#view_x5F_2').hide();
-		   	$('#view_x5F_3').show();	
+		$('#start_x5F_page').hide();
+		$('#home_x5F_page').hide();
+	   	$('#view_x5F_2').hide();
+	   	$('#view_x5F_3').show();	
 	}
 
 </script>
