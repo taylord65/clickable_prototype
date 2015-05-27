@@ -1,47 +1,82 @@
 <!doctype html>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script>
   $.get('prototype.svg', function(data) {
     $(document.body).append(data.documentElement);
     init();
   });
+
   function init() {
 
+  	/*Start button */
   	$('#button').click(function() {
-  		$('#start_x5F_page').hide();
-  		$('#home_x5F_page').show();
+  		display_home();
 	});
 
+		/*Home*/
+
+  		/*Back to start page */
 	  	$('#back_x5F_button_x5F_home').click(function() {
-	  		$('#start_x5F_page').show();
-	   		$('#home_x5F_page').hide(); 		
+			display_start();	
 		});	
 
+	  	/*View 2 button */
 		$('#VIEW2_x5F_BUTTON').click(function() {
-	   		$('#home_x5F_page').hide(); 	
-	   		$('#view_x5F_2').show();	
+			display_view_2();
 		});
+
+			/*View 2*/
 
 			/*Back button from view 2 */
 			$('#back_x5F_button_x5F_2').click(function() {
-		   		$('#home_x5F_page').show(); 	
-		   		$('#view_x5F_2').hide();	
+				display_home();	
 			});
 
+		/*View 3 button */
 		$('#VIEW3_x5F_BUTTON').click(function() {
-	   		$('#home_x5F_page').hide(); 	
-	   		$('#view_x5F_3').show();	
+				display_view_3();
 		});	
+
+			/*View 3*/
 
 			/*Back button from view 3 */
 			$('#back_x5F_button_x5F_3').click(function() {
-		   		$('#home_x5F_page').show(); 	
-		   		$('#view_x5F_3').hide();	
+				display_home();
 			});
-
-	
-
   }
+
+  	/*Helper functions*/
+
+	function display_start(){
+			$('#start_x5F_page').show();
+			$('#home_x5F_page').hide();
+		   	$('#view_x5F_2').hide();
+		   	$('#view_x5F_3').hide();	
+	}
+
+	function display_home(){
+			$('#start_x5F_page').hide();
+			$('#home_x5F_page').show();
+		   	$('#view_x5F_2').hide();
+		   	$('#view_x5F_3').hide();	
+	}
+
+	function display_view_2(){
+			$('#start_x5F_page').hide();
+			$('#home_x5F_page').hide();
+		   	$('#view_x5F_2').show();
+		   	$('#view_x5F_3').hide();	
+	}
+
+	function display_view_3(){
+			$('#start_x5F_page').hide();
+			$('#home_x5F_page').hide();
+		   	$('#view_x5F_2').hide();
+		   	$('#view_x5F_3').show();	
+	}
+
 </script>
 <style>
 </style>
