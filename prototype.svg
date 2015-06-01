@@ -5,8 +5,8 @@
 	 viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
 <g id="view_x5F_3">
 	<rect id="background_3_" fill="#81C784" width="960" height="560"/>
-	<text transform="matrix(1 0 0 1 411.3608 113.2685)" font-family="'AvenirLTStd-Light'" font-size="47.833">View 3</text>
-	<text transform="matrix(1 0 0 1 447.2688 273.5907)" font-family="'AvenirLTStd-Light'" font-size="27.8331">Hello</text>
+	<text transform="matrix(1 0 0 1 414.207 113.2685)" font-family="'AvenirLTStd-Light'" font-size="47.833">View 3</text>
+	<text transform="matrix(1 0 0 1 449.7458 273.5907)" font-family="'AvenirLTStd-Light'" font-size="27.8331">Hello</text>
 	<g id="back_x5F_button_x5F_3">
 		<rect x="31.667" y="18.333" fill="#DCE775" width="96.667" height="37.333"/>
 		<text transform="matrix(1 0 0 1 36.9989 44.4739)" font-family="'AvenirLTStd-Light'" font-size="25.0202">&lt; back</text>
@@ -4472,7 +4472,7 @@
 	</g>
 	<g id="VIEW3_x5F_BUTTON">
 		<rect x="423" y="241.026" fill="#E6EE9C" width="113.696" height="45.474"/>
-		<text transform="matrix(1 0 0 1 442.9377 272.2603)" font-family="'AvenirLTStd-Light'" font-size="25.8274">View 3</text>
+		<text transform="matrix(1 0 0 1 444.4749 272.2603)" font-family="'AvenirLTStd-Light'" font-size="25.8274">View 3</text>
 	</g>
 </g>
 <g id="start_x5F_page">
@@ -4500,6 +4500,6 @@
 				V274.675z"/>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 386.2585 222.272)" font-family="'AvenirLTStd-Light'" font-size="18.8864">Clickable UI Prototype</text>
+	<text transform="matrix(1 0 0 1 392.8878 222.272)" font-family="'AvenirLTStd-Light'" font-size="18.8864">Clickable UI Prototype</text>
 </g>
 </svg>
